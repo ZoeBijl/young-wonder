@@ -22,7 +22,7 @@ All other browsers are pretty consistent.
 
 * Safari 9 on OS X 10.10 (also with VoiceOver)
 * Chrome 47 on OS X 10.10 (also with ChromeVox 49)
-* Firefox 43 on Ubuntu 15.10 (also with Orco 3.16)
+* Firefox 43 on Ubuntu 15.10 (also with Orca 3.16)
 * Internet Explorer 6 on Windows XP
 * Internet Explorer 7-11 on Windows 7 (developer tools)
 * Edge on Windows 10
