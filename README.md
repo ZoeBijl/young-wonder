@@ -2,6 +2,7 @@
 Good music, bad website
 
 An accessible and much lighter version of the [Young Wonder website](http://youngwonder.me).
+Because I really like their music, this is my gift to Rachel Koeman and Ian Ring.
 
 ## Problems fixed
 * More descriptive alt text
