@@ -1,9 +1,11 @@
 body {
   margin: 0;
+  padding-bottom: 2em;
   color: hsl(38, 100%, 94%);
   font-family: "Helvetica Neue", sans-serif;
   /* Colour picked from this image: http://indiecurrent.com/wp-content/uploads/2015/03/Young-Wonder-Enchanted-1-326x220.jpg
    * Passes WCAG 2.0 Level AA for large text (all text is large, so this is fine) */
+  background: #4da874; /* For le IE */
   background: hsl(149, 37%, 48%);
 }
 
@@ -20,7 +22,7 @@ img {
 aside {
   display: block;
   float: right;
-  margin-bottom: 2rem;
+  margin-bottom: 2em;
 }
 
 ul {
@@ -51,7 +53,8 @@ li {
 /* Main content */
 main {
   display: block;
-  margin: 2rem auto;
+  margin: 2em auto;
+  max-width: 90%;
   max-width: 90vw;
   clear: right;
   text-align: center;
@@ -85,12 +88,13 @@ main a {
   display: inline-block;
 }
 
-main img:first-child {
+main img {
   display: block;
+  margin: 0 auto;
 }
 
 main img + img {
-  margin-top: 2rem;
+  margin-top: 2em;
 }
 
 @media (min-width: 40em) {
