@@ -7,6 +7,12 @@ body {
   background: hsl(149, 37%, 48%);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Top menu */
 aside {
   float: right;
   margin-bottom: 2rem;
@@ -19,14 +25,6 @@ aside a {
 
 aside img {
   max-height: 40px;
-}
-
-main {
-  margin: 2rem auto;
-  max-width: 90vw;
-  clear: right;
-  text-align: center;
-  text-transform: uppercase;
 }
 
 ul {
@@ -45,18 +43,31 @@ li {
   float: left;
 }
 
-h2 {
+/* Main content */
+main {
+  margin: 2rem auto;
+  max-width: 90vw;
+  clear: right;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+h1,
+p {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+h1 {
   font-weight: 400;
 }
 
-h2 span {
+h1 span {
   color: #333;
   text-transform: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
 }
 
 img[src$="birth-cover-art.jpg"] {
@@ -74,15 +85,6 @@ main img:first-child {
 
 main img + img {
   margin-top: 2rem;
-}
-
-main h1,
-main p {
-  position: absolute;
-  clip: rect(0, 0, 0, 0);
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
 }
 
 @media (min-width: 40em) {
