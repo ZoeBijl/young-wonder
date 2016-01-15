@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  color: hsl(38, 100%, 94%);
+  font-family: "Helvetica Neue", sans-serif;
+  /* Colour picked from this image: http://indiecurrent.com/wp-content/uploads/2015/03/Young-Wonder-Enchanted-1-326x220.jpg
+   * Passes WCAG 2.0 Level AA for large text (all text is large, so this is fine) */
+  background: hsl(149, 37%, 48%);
+}
+
+aside {
+  float: right;
+  margin-bottom: 2rem;
+}
+
+aside a {
+  display: block;
+  padding: 0.375em;
+}
+
+aside img {
+  max-height: 40px;
+}
+
+main {
+  margin: 2rem auto;
+  max-width: 90vw;
+  clear: right;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul::after {
+  display: block;
+  clear: both;
+  content: '';
+}
+
+li {
+  float: left;
+}
+
+h2 {
+  font-weight: 400;
+}
+
+h2 span {
+  color: #333;
+  text-transform: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img[src$="birth-cover-art.jpg"] {
+  background: url(images/birth-cover-art-placeholder.gif);
+  background-size: cover;
+}
+
+main a {
+  display: inline-block;
+}
+
+main img:first-child {
+  display: block;
+}
+
+main img + img {
+  margin-top: 2rem;
+}
+
+main h1,
+main p {
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+@media (min-width: 40em) {
+  main {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 60em) {
+  main {
+    max-width: 33.333333333%;
+  }
+}
