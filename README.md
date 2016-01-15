@@ -4,6 +4,8 @@ Good music, bad website
 An accessible and much lighter version of the [Young Wonder website](http://youngwonder.me).
 Because I really like their music, this is my gift to Rachel Koeman and Ian Ring.
 
+View the [accessible and lighter version on GitHub pages](http://zoebijl.github.io/young-wonder/build/).
+
 ## Problems fixed
 * More descriptive alt text
 * Removed Bootstrap; don't need that (saved 153 KB)
