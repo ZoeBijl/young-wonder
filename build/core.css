@@ -7,6 +7,10 @@ body {
   background: hsl(149, 37%, 48%);
 }
 
+a img {
+  border: 0;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -14,17 +18,9 @@ img {
 
 /* Top menu */
 aside {
+  display: block;
   float: right;
   margin-bottom: 2rem;
-}
-
-aside a {
-  display: block;
-  padding: 0.375em;
-}
-
-aside img {
-  max-height: 40px;
 }
 
 ul {
@@ -39,12 +35,22 @@ ul::after {
   content: '';
 }
 
+ul a {
+  display: block;
+  padding: 0.375em;
+}
+
+ul img {
+  max-height: 40px;
+}
+
 li {
   float: left;
 }
 
 /* Main content */
 main {
+  display: block;
   margin: 2rem auto;
   max-width: 90vw;
   clear: right;
